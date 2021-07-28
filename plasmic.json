@@ -1,0 +1,81 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "isaxxNhFt61rFiDYgS6bxQ",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "Y0RnrKho8EWi",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "isaxxNhFt61rFiDYgS6bxQ",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "GuGLIbClGJ",
+          "name": "SearchBar",
+          "type": "managed",
+          "projectId": "isaxxNhFt61rFiDYgS6bxQ",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSearchBar.jsx",
+          "importSpec": {
+            "modulePath": "SearchBar.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSearchBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "H45zMA9hk",
+          "name": "myriam-zilles-KltoLK6Mk-g-unsplash.jpg",
+          "filePath": "plasmic/blank_project/images/myriamZillesKltoLk6MkGUnsplashjpg.jpeg"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "2wMqyUcyUvyNNXfglmxrdQ2yz5IsYy5x9RBk0RJIPopimDwBPn4Jjh1ekVRscF0sRDanDXwdRldjjuR3YSXnAQ"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "4yf6ShofWHly",
+        "name": "Screen",
+        "projectId": "isaxxNhFt61rFiDYgS6bxQ",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}
